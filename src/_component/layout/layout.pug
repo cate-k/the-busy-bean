@@ -1,0 +1,17 @@
+doctype html
+html
+    - var baseUrl = taskTarget === 'tmp' ? '' : '/the-busy-bean'
+    head
+        title The Busy Bean
+        meta(
+            name="description",
+            content="The Busy Bean Café"
+        )
+        link(
+            rel="stylesheet",
+            href=`${baseUrl}style.css`
+        )
+    body
+        include ../menu/menu
+        block content
+        include ../footer/footer
