@@ -2,10 +2,20 @@
 html,
 body {
     height: 100%;
-    // font-family: 'Quicksand';
+    font-family: 'Montserrat';
+    background-color: black;
+    color: white;
 }
 
 //- Responsiveness
 @media screen and (min-width: 25em){
     html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+}
+
+//- Menu
+.logo {
+    background-image: url(asset/image/busy-bean-logo.png);
+    background-size: cover;
+    height: 5rem;
+    width: 5rem;
 }
