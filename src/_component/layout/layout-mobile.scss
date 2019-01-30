@@ -13,9 +13,35 @@ body {
 }
 
 //- Menu
+.menu {
+    display: flex;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+    font-size: 0.45rem;
+    margin-top: 1.5rem;
+
+    a {
+        text-decoration: none;
+        color: white;
+        margin-left: 0.7rem;
+
+        &:hover {
+            color: $color-rajah;
+        }
+    }
+}
+
 .logo {
     background-image: url(asset/image/busy-bean-logo.png);
     background-size: cover;
     height: 5rem;
     width: 5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
 }
