@@ -2,14 +2,14 @@ doctype html
 html
     - var baseUrl = taskTarget === 'tmp' ? '' : '/the-busy-bean'
     head
-        title The Busy Bean
+        title The Busy Bean Café
         meta(
             name="description",
             content="The Busy Bean Café"
         )
         link(
             rel="stylesheet",
-            href=`${baseUrl}style.css`
+            href=`${baseUrl}/style.css`
         )
     body
         include ../menu/menu
