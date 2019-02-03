@@ -153,6 +153,7 @@ body {
 
 .text {
     text-align: center;
+    font-family: 'Oswald';
     font-size: 0.7rem;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -180,9 +181,31 @@ body {
     h2 {
         text-align: center;
         padding: 5rem;
+        font-family: 'Oswald';
     }
 
     p {
         text-align: center;
+        font-size: 0.75rem;
+        font-family: 'Oswald';
     }
+}
+
+
+//- Menu page
+.menu-text {
+    font-family: 'Oswald';
+    color: $color-rajah;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+//- Footer
+.footer {
+    text-align: center;
+    font-size: 0.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Oswald';
 }
