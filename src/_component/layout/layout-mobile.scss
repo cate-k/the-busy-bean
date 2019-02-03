@@ -15,6 +15,8 @@ body {
 //- Menu
 .menu {
     display: flex;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .menu-wrapper {
@@ -127,7 +129,7 @@ body {
                             transform: scale(1);
                         }
                         50% {
-                            transform: scale(1.5);
+                            transform: scale(1.3);
                         }
                         100% {
                             transform: scale(1);
@@ -137,4 +139,28 @@ body {
             }
         }
     }
+}
+
+//- Opening Hours
+.tbb--drink {
+    margin-left: 43%;
+    margin-bottom: 1rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    display: inline-block;
+}
+
+.text {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.lorem {
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
