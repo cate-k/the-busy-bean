@@ -41,4 +41,74 @@
         padding: 15px;
         display: inline-block;
     }
+
+
+    //- Locations page
+    .boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    
+        p {
+            color: $color-rajah;
+            font-size: 0.5rem;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+    
+        .left-aligned {
+            margin-left: 0.5rem;
+        }
+    
+        .address,
+        .address-left {
+            color: $color-swans-down;
+            width: 7rem;
+            margin-top: 0.5rem;
+        }
+    
+        .address-left {
+            margin-left: 0.5rem;
+        }
+    }
+    
+    .sydney-photo {
+        background-image: url(asset/image/sydney.jpg);
+        background-size: cover;
+        border-radius: 5px;
+        height: 7rem;
+        width: 7rem;
+    }
+    
+    .ny-photo {
+        background-image: url(asset/image/ny.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 7rem;
+        width: 7rem;
+        margin-left: 0.5rem;
+    }
+    
+    .london-photo {
+        background-image: url(asset/image/london.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 7rem;
+        width: 7rem;
+        margin-left: 0.5rem;
+    }
+    
+    .melbourne-photo {
+        background-image: url(asset/image/melbourne.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 7rem;
+        width: 7rem;
+        margin-left: 0.5rem;
+    }
 }

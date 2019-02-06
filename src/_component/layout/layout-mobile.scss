@@ -260,9 +260,6 @@ body {
 
 //- Locations page
 .boxes {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     margin-bottom: 2rem;
 
     p {
@@ -273,19 +270,10 @@ body {
         margin-bottom: 1rem;
     }
 
-    .left-aligned {
-        margin-left: 0.5rem;
-    }
-
     .address,
     .address-left {
         color: $color-swans-down;
-        width: 7rem;
         margin-top: 0.5rem;
-    }
-
-    .address-left {
-        margin-left: 0.5rem;
     }
 }
 
@@ -293,8 +281,9 @@ body {
     background-image: url(asset/image/sydney.jpg);
     background-size: cover;
     border-radius: 5px;
-    height: 7rem;
-    width: 7rem;
+    height: 17rem;
+    width: 17rem;
+    margin: 0 auto;
 }
 
 .ny-photo {
@@ -302,9 +291,10 @@ body {
     background-position: center;
     background-size: cover;
     border-radius: 5px;
-    height: 7rem;
-    width: 7rem;
-    margin-left: 0.5rem;
+    height: 17rem;
+    width: 17rem;
+    margin: 0 auto;
+
 }
 
 .london-photo {
@@ -312,9 +302,9 @@ body {
     background-position: center;
     background-size: cover;
     border-radius: 5px;
-    height: 7rem;
-    width: 7rem;
-    margin-left: 0.5rem;
+    height: 17rem;
+    width: 17rem;
+    margin: 0 auto;
 }
 
 .melbourne-photo {
@@ -322,9 +312,9 @@ body {
     background-position: center;
     background-size: cover;
     border-radius: 5px;
-    height: 7rem;
-    width: 7rem;
-    margin-left: 0.5rem;
+    height: 17rem;
+    width: 17rem;
+    margin: 0 auto;
 }
 
 
