@@ -192,6 +192,11 @@ body {
 
 
 //- Menu page
+.tbb--cake {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
 .menu-text {
     font-family: 'Oswald';
     text-transform: uppercase;
@@ -259,6 +264,11 @@ body {
 
 
 //- Locations page
+.tbb--location {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
 .boxes {
     margin-bottom: 2rem;
 
@@ -315,6 +325,39 @@ body {
     height: 17rem;
     width: 17rem;
     margin: 0 auto;
+}
+
+
+//- Contact Us page
+.tbb--coffee {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.contact {
+    font-size: 0.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+
+    a {
+        color: $color-rajah;
+        text-decoration: none;
+    }
+}
+
+.icons {
+    text-align: center;
+
+    .tbb--medal,
+    .tbb--wifi-full {
+        color: $color-swans-down;
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 15px;
+        display: inline-block;
+    }
 }
 
 
