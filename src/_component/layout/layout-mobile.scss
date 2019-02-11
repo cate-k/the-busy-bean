@@ -89,18 +89,10 @@ body {
                     border-left: 5px solid $color-rajah;
                 }
 
-                // img {
-                //     height: 100%;
-                //     width: 100%;
-                //     position: absolute;
-                //     top: 0;
-                //     left: 0;
-                // }
-
                 .img-one {
                     background-image: url(asset/image/girl-drinking-coffee.jpg);
                     background-position: center;
-                    background-size: cover;
+                    background-size: 100% 100%;
                     height: 100%;
                     width: 100%;
                 }
@@ -116,7 +108,7 @@ body {
                 .img-three {
                     background-image: url(asset/image/coffee-maker.jpg);
                     background-position: center;
-                    background-size: cover;
+                    background-size: 100% 100%;
                     height: 100%;
                     width: 100%;
                 }
@@ -140,10 +132,6 @@ body {
                     transition: transform 0.5s;
                     transform: rotateY(0deg);
                     transform-origin: right;
-
-                    // img {
-                    //     animation: animate 40s linear infinite;
-                    // }
 
                     .img-one,
                     .img-two,
