@@ -48,18 +48,6 @@ body {
 
 
 //- Home page
-.homepage-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.74)), url(asset/image/coffee-maker.jpg);
-    background-size: cover;
-    height: 15rem;
-    width: 100%;
-
-    h1 {
-        text-align: center;
-        padding: 5rem;
-    }
-}
-
 //- Home page slideshow
 .container {
     position: relative;
@@ -101,11 +89,44 @@ body {
                     border-left: 5px solid $color-rajah;
                 }
 
-                img {
-                    object-fit: cover;
-                    position: absolute;
-                    top: 0;
-                    left: 0;
+                // img {
+                //     height: 100%;
+                //     width: 100%;
+                //     position: absolute;
+                //     top: 0;
+                //     left: 0;
+                // }
+
+                .img-one {
+                    background-image: url(asset/image/girl-drinking-coffee.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    height: 100%;
+                    width: 100%;
+                }
+
+                .img-two {
+                    background-image: url(asset/image/coffee-cup.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    height: 100%;
+                    width: 100%;
+                }
+
+                .img-three {
+                    background-image: url(asset/image/coffee-maker.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    height: 100%;
+                    width: 100%;
+                }
+
+                .img-four {
+                    background-image: url(asset/image/ice-coffee.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    height: 100%;
+                    width: 100%;
                 }
             }
 
@@ -120,7 +141,14 @@ body {
                     transform: rotateY(0deg);
                     transform-origin: right;
 
-                    img {
+                    // img {
+                    //     animation: animate 40s linear infinite;
+                    // }
+
+                    .img-one,
+                    .img-two,
+                    .img-three,
+                    .img-four {
                         animation: animate 40s linear infinite;
                     }
 
@@ -140,6 +168,7 @@ body {
         }
     }
 }
+
 
 //- Opening Hours
 .tbb--drink {
