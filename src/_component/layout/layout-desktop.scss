@@ -32,6 +32,22 @@
         margin-left: 1rem;
     }
 
+    //-Slideshow
+    .slide {
+        .content {
+            font-size: 0.7rem;
+            position: absolute;
+            top: 80%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            color: black;
+            background: rgba(204, 204, 204, 0.5);
+            padding: 40px;
+            width: 10rem;
+            border-left: 5px solid $color-rajah;
+        }
+    }
+
     //- Opening Hours
     .tbb--drink {
         margin-left: 48.2%;
