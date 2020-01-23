@@ -5,6 +5,7 @@ body {
   font-family: "Montserrat";
   background-color: black;
   color: white;
+  overflow-x: hidden;
 }
 
 //- Responsiveness
@@ -51,9 +52,32 @@ body {
 //- Home page
 //- Slideshow
 .container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
+}
+
+.img-one {
+  background-image: url(asset/image/coffee-frappe.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 19rem;
+  width: 100%;
+}
+
+.img-two {
+  background-image: url(asset/image/coffee-cup.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 19rem;
+  width: 100%;
+}
+
+.img-three {
+  background-image: url(asset/image/ice-coffee.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 19rem;
+  width: 100%;
 }
 
 .slide {
