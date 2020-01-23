@@ -57,7 +57,7 @@ body {
 }
 
 .img-one {
-  background-image: url(asset/image/coffee-frappe.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(asset/image/coffee-frappe.jpg);
   background-position: center;
   background-size: cover;
   height: 19rem;
@@ -65,7 +65,7 @@ body {
 }
 
 .img-two {
-  background-image: url(asset/image/coffee-cup.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(asset/image/coffee-cup.jpg);
   background-position: center;
   background-size: cover;
   height: 19rem;
@@ -73,7 +73,7 @@ body {
 }
 
 .img-three {
-  background-image: url(asset/image/ice-coffee.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(asset/image/ice-coffee.jpg);
   background-position: center;
   background-size: cover;
   height: 19rem;
@@ -111,12 +111,12 @@ body {
 }
 
 .slide-text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: white;
+  font-size: 1rem;
+  top: 50%;
+  width: 100%;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
-  width: 100%;
   text-align: center;
 }
 
